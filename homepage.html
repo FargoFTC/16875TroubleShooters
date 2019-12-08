@@ -23,6 +23,12 @@ nav {
   background: #ccc;
   padding: 20px;
 }
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -110,9 +116,6 @@ nav {
       <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
     </div>
   </section>
-
-
-
 
     <!-- /.row -->
 
